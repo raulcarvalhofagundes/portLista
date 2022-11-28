@@ -1,0 +1,135 @@
+1.
+programa
+{
+	
+	funcao inicio()
+	{
+	Amigo("Jefferson")
+     Amigo("Ney") 
+	}
+	funcao Amigo(cadeia nome){
+	escreva("Obrigado ", nome, " voce é um amigo\n")	
+	}
+}
+
+2.
+programa
+{
+	
+	funcao inicio()
+	{
+	obrigadoAmigo() 
+	}
+	funcao obrigadoAmigo(){
+	escreva("obrigado amigo, voce é um amigo. ")	 
+	}
+}
+
+3.
+programa
+{
+    
+    funcao inicio()
+    {
+     gasosa(636, 940)
+     
+    }
+     funcao gasosa(inteiro km, inteiro litros){
+     escreva( km/50)
+     escreva("\n")
+     escreva( litros/50)
+     
+    
+     }
+} 
+
+4.
+programa
+{
+    
+    funcao inicio()
+    {
+    verificalatido("Bob ",20)
+    verificalatido("Laika ",19.7)     
+    verificalatido("Jessie ",1.1)
+    verificalatido("Melinha ",22)
+    }
+     funcao verificalatido(cadeia nome, real peso){
+         escreva("\n")
+         escreva(nome,"tem ", peso," Kg")
+     
+        
+     }
+    
+}
+
+5.
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro operacao
+	
+	escreva("Qual operacao voce quer ?\n+SOMA = 0\n-SUBTRAÇAO = 1\n*MULTIPLICAÇAO = 2\n/DIVISÃO = 3\n ")
+     leia(operacao)
+
+     limpa()
+     escolha(operacao){
+
+			caso 0: soma(0,0)
+			pare
+			
+			caso 1: subtracao(0,0)
+			pare
+			
+			caso 2: multiplicacao(0,0)
+			pare
+			
+	 		caso 3: divisao(0,0)
+	          pare	
+		} 
+		 
+	}
+	
+	funcao soma(inteiro x, inteiro y){
+     escreva("Qual o primeiro numero para somar? ")
+     leia(x)
+     
+     escreva("Qual o segundo? ")
+     leia(y)
+     
+     escreva(x+y)
+	}
+	
+	funcao subtracao(inteiro x, inteiro y){
+	escreva("Qual o primeiro numero para subtrair? ")
+     leia(x)
+     
+     escreva("Qual o segundo? ")
+     leia(y)
+     
+     escreva(x-y)	
+	}
+	
+     funcao multiplicacao(inteiro x, inteiro y){
+     escreva("Qual o primeiro numero para multiplicar? ")
+     leia(x)
+     
+     escreva("Qual o segundo? ")
+     leia(y)
+     
+     escreva(x*y)	
+     }
+     
+     funcao divisao(inteiro x, real y){
+     escreva("Qual o primeiro numero para dividir? ")
+     leia(x)
+     
+     escreva("Qual o segundo? ")
+     leia(y)
+     
+     escreva(x/y)	
+     }
+	
+}
